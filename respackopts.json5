@@ -1,0 +1,11 @@
+{
+    id: "Default_Edit_v3",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        LCE_Glint: true,
+        Alternate_World_Border: true,
+	Alternate_Elytra: true,
+	Ghast_16x16_pixel_resolution: true
+    }
+}

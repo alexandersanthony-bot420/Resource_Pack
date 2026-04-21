@@ -1,0 +1,83 @@
+{
+	"credit": "Created by UnduGT for the Undopia Patch",
+	"parent": "block/block",
+	"gui_light": "front",
+	"textures": {
+		"particle": "block/sea_pickle",
+		"all": "block/sea_pickle"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 6, 0, 6 ],
+			"to": [ 10, 11, 10 ],
+			"faces": {
+				"down": { "uv": [ 8, 1, 12, 5 ], "texture": "#all", "cullface": "down" },
+				"up": { "uv": [ 4, 1, 8, 5 ], "texture": "#all" },
+				"north": { "uv": [ 4, 5, 8, 16 ], "texture": "#all" },
+				"south": { "uv": [ 0, 5, 4, 16 ], "texture": "#all" },
+				"west": { "uv": [ 8, 5, 12, 16 ], "texture": "#all" },
+				"east": { "uv": [ 12, 5, 16, 16 ], "texture": "#all" }
+			}
+		},
+		{
+			"from": [ 6, 10.98, 6 ],
+			"to": [ 10, 10.981, 10 ],
+			"faces": {
+				"up": { "uv": [ 8, 1, 12, 5 ], "texture": "#all" }
+			}
+		},
+		{
+			"from": [ 7.5, 10.25, 8 ],
+			"to": [ 8.5, 13.75, 8.001 ],
+			"rotation": { "origin": [ 8, 13.05, 8 ], "axis": "y", "angle": 45, "rescale": true },
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 1, 0, 3, 5 ], "texture": "#all" },
+				"south": { "uv": [ 13, 0, 15, 5 ], "texture": "#all" }
+			}
+		},
+		{
+			"from": [ 8, 10.25, 7.5 ],
+			"to": [ 8.001, 13.75, 8.5 ],
+			"rotation": { "origin": [ 8, 13.05, 8 ], "axis": "y", "angle": 45, "rescale": true },
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 1, 0, 3, 5 ], "texture": "#all" },
+				"east": { "uv": [ 13, 0, 15, 5 ], "texture": "#all" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation":  [ 0, 1, 1 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ 0, 1, 1 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 1, 1, 1 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 0, 0.5 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}
